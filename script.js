@@ -96,14 +96,6 @@
             });
         });
 
-        // Add parallax effect to hero section
-        window.addEventListener('scroll', function() {
-            const scrolled = window.pageYOffset;
-            const parallax = document.querySelector('.hero');
-            const speed = scrolled * 0.5;
-            parallax.style.transform = `translateY(${speed}px)`;
-        });
-
         // Add typing effect to hero text
         document.addEventListener('DOMContentLoaded', function() {
             const heroTitle = document.querySelector('.hero h1');
