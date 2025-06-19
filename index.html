@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dominion Yusuf - Product Designer</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">AT</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+      <!-- Mobile Navigation Menu -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="#home" onclick="closeMobileMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMobileMenu()">About</a></li>
+            <li><a href="#skills" onclick="closeMobileMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="closeMobileMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Dominion Yusuf</h1>
+            <p>Product Designer</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div>
+                <img class="profile-img" src="https://framerusercontent.com/images/ElzFYTm8NGLopFnzUrR2wIztk.png?scale-down-to=1024" style="background: linear-gradient(45deg, #6366f1, #8b5cf6); height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem;"></img>
+            </div>
+           
+
+            <div class="about-text">
+                <p>Hi, I'm Dominion Yusuf, a product designer. With my computer science and design background, I specialize in creating engaging experiences for users through tailored interactive designs.</p>
+                <p> I designed an award-winning (Best Hack for Social Impact) digital product with a team at the KIBO X MLH Hackathon 2023. I also won a category award "Creativity and Innovation Award" at Kibo School.</p>
+                <p>I am always open to connecting and learning about new opportunities, so don't hesitate to reach out.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <div class="skill-icon">🎨</div>
+                <h3>Graphic Design</h3>
+                <p>Photoshop, Illustrator</p>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon">🎥</div>
+                <h3>Video Editing</h3>
+                <p>Capcut, Canva</p>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon">💻</div>
+                <h3>Product Design</h3>
+                <p>Figma, Prototyping, User Research, Wireframing</p>
+            </div>
+            <div class="skill-item">
+                <div class="skill-icon">📱</div>
+                <h3>Social Media Management</h3>
+                <p>Content Creation, Content Planning</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <a href="https://www.behance.net/gallery/226316217/Glidee-App-Mobile-Design" target="_blank"><img src="https://framerusercontent.com/images/CcHqgiFmvPBbQ3WBTOjoPsi9k.png" class="project-img"></img></a>
+                <div class="project-content">
+                    <h3>Glidee Mobile App</h3>
+                    <p>Glidee is a ride-sharing platform designed specifically for students in Nigerian tertiary institutions. </p>
+                    
+                </div>
+            </div>
+            <div class="project-card">
+                 <a href="https://www.behance.net/gallery/226265785/GitWit-Landing-Page-Design" target="_blank"><img src="https://framerusercontent.com/images/J7kBRvRHrdGeYWoOSe1vtie0nGg.png" class="project-img"></img></a>
+                <div class="project-content">
+                    <h3>GitWit Landing Page Redesign</h3>
+                    <p>Gitwit is an open-source, AI-powered IDE right in the browser, enabling developers to code, use AI for intelligent suggestions, and deploy applications instantly.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="https://www.behance.net/gallery/190967455/Savings-App" target="_blank"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/source/bcb0f8190967455.65c37102c054b.png" class="project-img"></img></a>
+                <div class="project-content">
+                    <h3>Dria Savings App</h3>
+                    <p>A mobile app that helps young people develop healthy money management habits.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i>📧</i>
+                    <div>
+                        <strong>Email</strong><br>
+                        dominion.yusuf@alustudent.com
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i>📱</i>
+                    <div>
+                        <strong>Phone</strong><br>
+                        +2347080262362
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i>📍</i>
+                    <div>
+                        <strong>Location</strong><br>
+                        Lagos, Nigeria
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i>💼</i>
+                    <div>
+                        <strong>LinkedIn</strong><br>
+                        linkedin.com/in/yusufdominion/
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Dominion Yusuf. All rights reserved. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
